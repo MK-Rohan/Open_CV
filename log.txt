@@ -1,0 +1,24 @@
+----Start----
+title: 영어고전367 <b>니콜로 마키</b>아벨리의 피렌체사(English Classics367 History of Florence and of the Affairs of Italy by Niccol？ <b>Machiavelli</b>)
+author: <b>니콜로 마키</b>아벨리(Niccol？ <b>Machiavelli</b>)
+pubdate: 20220115
+image: https://bookthumb-phinf.pstatic.net/cover/214/256/21425608.jpg?type=m1&udate=20220117
+----End----
+----Start----
+title: 영어고전371 <b>니콜로 마키</b>아벨리의 전술론(English Classics371 The Art of War by Niccol？ <b>Machiavelli</b>)
+author: <b>니콜로 마키</b>아벨리(Niccol？ <b>Machiavelli</b>)
+pubdate: 20220115
+image: https://bookthumb-phinf.pstatic.net/cover/214/256/21425626.jpg?type=m1&udate=20220117
+----End----
+----Start----
+title: 영어고전368 <b>니콜로 마키</b>아벨리의 로마사 논고Ⅰ(English Classics368 Discourses on the First Decade of Titus LiviusⅠ by Niccol？ <b>Machiavelli</b>)
+author: <b>니콜로 마키</b>아벨리(Niccol？ <b>Machiavelli</b>)
+pubdate: 20220115
+image: https://bookthumb-phinf.pstatic.net/cover/214/256/21425607.jpg?type=m1&udate=20220117
+----End----
+----Start----
+title: 마키아벨리 군주론 (<b>이탈리아어 완역 결정판</b>)
+author: 마키아벨리
+pubdate: 20141020
+image: https://bookthumb-phinf.pstatic.net/cover/082/695/08269504.jpg?type=m1&udate=20211123
+----End----
