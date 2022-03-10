@@ -31,7 +31,7 @@ def search(img):
     # 좋은 매칭 선별
     good_matches = [
         m[0]
-        for m in matchers
+        for m in matches
         if len(m) == 2 and m[0].distance < m[1].distance * ratio
     ]
     if len(good_matches) > MIN_MATCH:  # 좋은 매칭점으로 원본과 대상 영상의 좌표 구하기
@@ -50,7 +50,7 @@ def search(img):
     return results
 
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 gimg = None
 if cap.isOpened():
     while True:
@@ -66,7 +66,8 @@ if cap.isOpened():
         top = (h // 2) - (h // 3)
         bottom = (h // 2) + (h // 3)
         cv2.rectangle(frame, (left, top), (right, bottom), (255, 255, 255), 3)
-        cv2.imshow("Book Searcher", np.flip)
+        flip = cv2.flip(frame, 1)  # 거울처럼 보기 좋게 화면 뒤집어 보이기
+        cv2.imshow("Book Searcher", flip)
         key = cv2.waitKey(10)
         if key == ord(" "):  # 스페이스바를 눌러 사진찍기
             gimg = frame[top:bottom, left:right]
